@@ -59,6 +59,9 @@
 - Cocoapods
   - https://cocoapods.org
   - Modelo arquivo Podfile: Entrar na pasta CocoaPods ou entrar clicar no link https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/CocoaPods
+  
+- Postman
+  - https://www.getpostman.com
  
 
 
