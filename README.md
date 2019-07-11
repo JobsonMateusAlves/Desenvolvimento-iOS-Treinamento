@@ -5,7 +5,6 @@
 ### Conteúdo
 
 #### Introdução ao Desenvolvimento Mobile
-- O que é um Aplicativo Mobile?
 - Metodologia Offline First
 - Padrões da Plataforma Apple
 - AppStoreConnect e Apple Developer
@@ -16,7 +15,7 @@
 - Optionals
 - Estrutura de decisão
 - Estrutura de repetição
-- Coleções e Dicionários 
+- Dicionários 
 - Funções e Closures
 - Classes, Structs e Enums
 - Extensions
