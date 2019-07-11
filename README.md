@@ -44,3 +44,16 @@
 - Ciclo de vida de uma Controller
 - Componentes de Layout
 - TableView
+
+### Links 
+- Gerenciamento dos Aplicativos Apple
+- - https://appstoreconnect.apple.com/
+- - https://developer.apple.com/
+
+- Padrões Apple
+- - https://developer.apple.com/design/human-interface-guidelines/
+
+- Linguagem
+- - //TODO: Documentação Swift
+
+
