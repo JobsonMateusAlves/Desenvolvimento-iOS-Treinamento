@@ -56,4 +56,9 @@
 - Linguagem Swift (Acessar Pastas Swift/Treinamento-Swift.playground neste repositório)
   - https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/Swift/Treinamento-Swift.playground
 
+- Cocoapods
+  - https://cocoapods.org
+  - Modelo arquivo Podfile: Entrar na pasta CocoaPods ou entrar clicar no link https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/CocoaPods
+ 
+
 
