@@ -53,7 +53,7 @@
 - Padrões Apple
   - https://developer.apple.com/design/human-interface-guidelines/
 
-- Linguagem
-  - //TODO: Documentação Swift
+- Linguagem Swift
+  - https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/Swift/Treinamento-Swift.playground
 
 
