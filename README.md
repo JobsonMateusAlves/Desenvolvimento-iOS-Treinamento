@@ -39,7 +39,7 @@
 - Alamofire e Object Mapper
 - Programação Orientada a Protocolo
 
-#### iOS SDK
+#### SDK iOS 
 - Ciclo de vida da Aplicação
 - Ciclo de vida de uma Controller
 - Componentes de Layout
