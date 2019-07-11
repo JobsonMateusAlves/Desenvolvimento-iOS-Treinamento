@@ -65,5 +65,5 @@
  
 - Git
   - https://github.com
-  - Comandos básicos: Acessar pasta Git ou clicar no link ...
+  - Comandos básicos: Acessar pasta Git ou clicar no link https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/Git
 
