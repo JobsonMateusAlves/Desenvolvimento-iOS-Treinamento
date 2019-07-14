@@ -52,17 +52,17 @@
 - Padrões Apple
   - https://developer.apple.com/design/human-interface-guidelines/
 
-- Linguagem Swift (Acessar Pastas Swift/Treinamento-Swift.playground neste repositório)
-  - https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/Swift/Treinamento-Swift.playground
+- Linguagem Swift
+  - Acessar Pasta Swift/Treinamento-Swift.playground.
 
 - Cocoapods
   - https://cocoapods.org
-  - Modelo arquivo Podfile: Acessar pasta CocoaPods ou clicar no link https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/CocoaPods
+  - Modelo arquivo Podfile: Acessar pasta CocoaPods.
   
 - Postman
   - https://www.getpostman.com
  
 - Git
   - https://github.com
-  - Comandos básicos: Acessar pasta Git ou clicar no link https://github.com/JobsonMateusAlves/Desenvolvimento-iOS-Treinamento/tree/master/Git
+  - Comandos básicos: Acessar pasta Git.
 
