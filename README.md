@@ -71,23 +71,38 @@
 
 - Atualizar branch atual com as alterações de outra branch: `git pull origin <BRANCH>`
 
-### Links 
-- Gerenciamento dos Aplicativos Apple
-  - https://appstoreconnect.apple.com/
-  - https://developer.apple.com/
-
-- Padrões Apple
-  - https://developer.apple.com/design/human-interface-guidelines/
-
-- Linguagem Swift
-  - Acessar Pasta Swift/Treinamento-Swift.playground.
-
+## Documentos
+- Linguagem Swift (Playground)
+    - Dois arquivos playground com o básico da linguagem swift na pasta "Swift/"
 - Cocoapods
-  - https://cocoapods.org
-  - Modelo arquivo Podfile: Acessar pasta CocoaPods.
+    - Template arquivo Podfile na pasta CocoaPods.
+- Template de um projeto
+    - Template de um projeto com a configuração do Swiftgem.
+
+## Links 
+### API's:
+- Treinamento:
+    - Postman: https://www.getpostman.com/collections/3824a7d4507b0ecc3d27
+    - Repositório: https://github.com/neymoura/rails-api-agenda-telefonica
+- Projeto Final:
+    - Em breve...
+
+#### Apple
+- https://appstoreconnect.apple.com/
+- https://developer.apple.com/
+- https://developer.apple.com/design/human-interface-guidelines/
+
+#### Ferramentas:
+- Xcode: https://itunes.apple.com/br/app/xcode/id497799835?mt=12
+- Cocoapods: https://cocoapods.org
+- Postman: https://www.getpostman.com 
+- Realm Studio: https://realm.io/products/realm-studio
   
-- Postman
-  - https://www.getpostman.com
- 
-- Git
-  - https://github.com
+#### Bibliotecas 
+- Realm: https://realm.io/docs/swift/latest
+- Alamofire: https://github.com/Alamofire/Alamofire
+- ObjectMapper: https://github.com/Hearst-DD/ObjectMapper
+- AlamofireObjectMapper: https://github.com/tristanhimmelman/AlamofireObjectMapper
+- SwiftGen: https://github.com/SwiftGen/SwiftGen
+- Reusable: https://github.com/AliSoftware/Reusable
+- Kingfisher: https://github.com/onevcat/Kingfisher
