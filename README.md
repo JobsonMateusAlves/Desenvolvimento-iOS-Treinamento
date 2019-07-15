@@ -44,7 +44,7 @@
 - Componentes de Layout
 - TableView
 
-### Git Básico
+## Git Básico
 
 - Inicializar o versionamento do git: `git init`
 
@@ -91,5 +91,3 @@
  
 - Git
   - https://github.com
-  - Comandos básicos: Acessar pasta Git.
-
