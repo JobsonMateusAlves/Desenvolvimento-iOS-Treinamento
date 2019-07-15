@@ -44,6 +44,33 @@
 - Componentes de Layout
 - TableView
 
+### Git Básico
+
+- Inicializar o versionamento do git: `git init`
+
+- Adicionar um repositório remoto: `git remote add origin <URL DO REPOSITORIO>`
+
+- Enviar atualizações para um novo repositório sem branches: `git push -u origin master`
+
+- Cria uma copia de trabalho em um repositório local: `git clone <URL DO REPOSITORIO>`
+
+- Adicionar todos os arquivos para serem commitados: `git add .`
+
+- Pegar as informações do repositório remoto para atualizar o repositório local: `git pull`
+
+- Commitar alterações: `git commit -m "comentários das alterações"` 
+
+- Enviar as alterações commitadas para o repositório do git: `git push`
+
+
+- Listar todas as branches: `git branch -a`
+
+- Mudar de branch: `git checkout`
+
+- Fazer o merge: `git merge <BRANCH>`
+
+- Atualizar branch atual com as alterações de outra branch: `git pull origin <BRANCH>`
+
 ### Links 
 - Gerenciamento dos Aplicativos Apple
   - https://appstoreconnect.apple.com/
