@@ -20,16 +20,16 @@
 - Classes, Structs e Enums
 - Extensions
 
+#### Introdução Git
+- Funcionamento
+- Branches, Merges e Rebase
+- Comandos básicos
+
 #### Apresentação do Ambiente de Desenvolvimento
 - Xcode
 - Simulador
 - Cocoapods
 - Postman
-
-#### Introdução Git
-- Funcionamento
-- Branches, Merges e Rebase
-- Comandos básicos
 
 #### Arquitetura de uma aplicação
 - Organização de pacotes
