@@ -84,6 +84,17 @@ $ sudo gem install cocoapods
 
 - Atualizar branch atual com as alterações de outra branch: `git pull origin <BRANCH>`
 
+## Script SwiftGem
+```
+"$PODS_ROOT"/SwiftGen/bin/swiftgen strings -t structured-swift4 "$PROJECT_DIR/$PROJECT_NAME/Application/Supporting Files/Generators/Localizable.strings" --output "$PROJECT_DIR/$PROJECT_NAME/Application/Supporting Files/Generated/Localizable.swift"
+
+"$PODS_ROOT"/SwiftGen/bin/swiftgen xcassets -t swift4 "$PROJECT_DIR/$PROJECT_NAME/Application/Supporting Files/Generators/Assets.xcassets" --output "$PROJECT_DIR/$PROJECT_NAME/Application/Supporting Files/Generated/Assets.swift"
+
+"$PODS_ROOT"/SwiftGen/bin/swiftgen colors -t swift4 "$PROJECT_DIR/$PROJECT_NAME/Application/Supporting Files/Generators/Colors.json" --output "$PROJECT_DIR/$PROJECT_NAME/Application/Supporting Files/Generated/Colors.swift"
+
+"$PODS_ROOT"/SwiftGen/bin/swiftgen storyboards -t swift4 "$PROJECT_DIR/$PROJECT_NAME" --output "$PROJECT_DIR/$PROJECT_NAME/Application/Supporting Files/Generated/Storyboards.swift"
+```
+
 ## Documentos
 - Linguagem Swift (Playground)
     - Dois arquivos playground com o básico da linguagem swift na pasta "Swift/"
