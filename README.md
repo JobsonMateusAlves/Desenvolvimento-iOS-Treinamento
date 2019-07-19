@@ -43,6 +43,19 @@
 - Ciclo de vida de uma Controller
 - Componentes de Layout
 - TableView
+## Instalações
+- Instalar Command Line Tools: 
+```shell
+$ xcode-select --install
+```
+- Instalar o homebrew: 
+```shell
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+- Instalar o cocoapods: 
+```shell
+$ sudo gem install cocoapods
+```
 
 ## Git Básico
 
