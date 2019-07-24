@@ -3,11 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		513BDB14F8CC1C7E59CA5990 /* Pods_Treinamento_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */; };
+		8387054E22E0B8720061B09B /* RepositorioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387054C22E0B8720061B09B /* RepositorioTableViewCell.swift */; };
+		8387054F22E0B8720061B09B /* RepositorioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8387054D22E0B8720061B09B /* RepositorioTableViewCell.xib */; };
+		83C8388722DF606F006789A9 /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C8388622DF606F006789A9 /* Repositorio.swift */; };
+		83C8388922DF62ED006789A9 /* GitApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C8388822DF62ED006789A9 /* GitApiService.swift */; };
+		83C8388B22DF62FF006789A9 /* GitApiRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C8388A22DF62FF006789A9 /* GitApiRequestFactory.swift */; };
+		83C8388D22DF6E67006789A9 /* RepositorioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C8388C22DF6E67006789A9 /* RepositorioViewModel.swift */; };
 		F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788822D8BC45001B5FDA /* AppDelegate.swift */; };
 		F66C788B22D8BC45001B5FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788A22D8BC45001B5FDA /* ViewController.swift */; };
 		F66C788E22D8BC45001B5FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66C788C22D8BC45001B5FDA /* Main.storyboard */; };
@@ -24,6 +30,12 @@
 /* Begin PBXFileReference section */
 		08867C8207311481E6B791B1 /* Pods-Treinamento-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinamento-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treinamento_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387054C22E0B8720061B09B /* RepositorioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorioTableViewCell.swift; sourceTree = "<group>"; };
+		8387054D22E0B8720061B09B /* RepositorioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositorioTableViewCell.xib; sourceTree = "<group>"; };
+		83C8388622DF606F006789A9 /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
+		83C8388822DF62ED006789A9 /* GitApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitApiService.swift; sourceTree = "<group>"; };
+		83C8388A22DF62FF006789A9 /* GitApiRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitApiRequestFactory.swift; sourceTree = "<group>"; };
+		83C8388C22DF6E67006789A9 /* RepositorioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorioViewModel.swift; sourceTree = "<group>"; };
 		F66C788522D8BC45001B5FDA /* Treinamento-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66C788822D8BC45001B5FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66C788A22D8BC45001B5FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +81,60 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8387054B22E0B78D0061B09B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8387054C22E0B8720061B09B /* RepositorioTableViewCell.swift */,
+				8387054D22E0B8720061B09B /* RepositorioTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		83C8388122DF5F4F006789A9 /* Git API */ = {
+			isa = PBXGroup;
+			children = (
+				83C8388522DF5F78006789A9 /* Model */,
+				83C8388422DF5F6E006789A9 /* ViewModel */,
+				83C8388322DF5F69006789A9 /* Service */,
+				83C8388222DF5F5F006789A9 /* Controllers */,
+			);
+			path = "Git API";
+			sourceTree = "<group>";
+		};
+		83C8388222DF5F5F006789A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F66C788A22D8BC45001B5FDA /* ViewController.swift */,
+				8387054B22E0B78D0061B09B /* Cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83C8388322DF5F69006789A9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				83C8388822DF62ED006789A9 /* GitApiService.swift */,
+				83C8388A22DF62FF006789A9 /* GitApiRequestFactory.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		83C8388422DF5F6E006789A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83C8388C22DF6E67006789A9 /* RepositorioViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		83C8388522DF5F78006789A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83C8388622DF606F006789A9 /* Repositorio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F66C787C22D8BC45001B5FDA = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				F66C789A22D8BC87001B5FDA /* Application */,
-				F66C788A22D8BC45001B5FDA /* ViewController.swift */,
+				83C8388122DF5F4F006789A9 /* Git API */,
 				F66C788C22D8BC45001B5FDA /* Main.storyboard */,
 				F66C789422D8BC4D001B5FDA /* Info.plist */,
 				F66C789122D8BC4D001B5FDA /* LaunchScreen.storyboard */,
@@ -200,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66C789322D8BC4D001B5FDA /* LaunchScreen.storyboard in Resources */,
+				8387054F22E0B8720061B09B /* RepositorioTableViewCell.xib in Resources */,
 				F66C78A122D8BE32001B5FDA /* Colors.json in Resources */,
 				F66C789F22D8BE16001B5FDA /* Localizable.strings in Resources */,
 				F66C789022D8BC4D001B5FDA /* Assets.xcassets in Resources */,
@@ -238,36 +305,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F66C78A222D8BFAA001B5FDA /* ShellScript */ = {
@@ -294,10 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C8388D22DF6E67006789A9 /* RepositorioViewModel.swift in Sources */,
 				F66C78A622D8CF65001B5FDA /* Storyboards.swift in Sources */,
+				83C8388722DF606F006789A9 /* Repositorio.swift in Sources */,
 				F66C78A822D8CF65001B5FDA /* Colors.swift in Sources */,
+				8387054E22E0B8720061B09B /* RepositorioTableViewCell.swift in Sources */,
 				F66C78AA22D8D453001B5FDA /* Assets.swift in Sources */,
+				83C8388B22DF62FF006789A9 /* GitApiRequestFactory.swift in Sources */,
 				F66C788B22D8BC45001B5FDA /* ViewController.swift in Sources */,
+				83C8388922DF62ED006789A9 /* GitApiService.swift in Sources */,
 				F66C78A722D8CF65001B5FDA /* Localizable.swift in Sources */,
 				F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */,
 			);

@@ -109,7 +109,9 @@ $ sudo gem install cocoapods
     - Postman: https://www.getpostman.com/collections/3824a7d4507b0ecc3d27
     - Repositório: https://github.com/neymoura/rails-api-agenda-telefonica
 - Projeto Final:
-    - Em breve...
+    - Postman: https://www.getpostman.com/collections/8b39a866f6ecb127c104
+    - BaseURL:
+        http://200.19.188.7:3010
 
 #### Apple
 - https://appstoreconnect.apple.com/
